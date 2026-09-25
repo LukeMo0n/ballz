@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (!launchButton) return;
 
-  const tunnelUrl = 'https://www.storageforqx.space';
+  const tunnelUrl = 'http://files.storageforqx.space/';
   launchButton.setAttribute('href', tunnelUrl);
   launchButton.setAttribute('aria-label', `Open Filestash storage at ${tunnelUrl}`);
 });
